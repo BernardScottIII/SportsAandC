@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'highschool';
+    src: url('../images/HighSchoolUsaSerif-6vwM.ttf');
+}
+
+html {
+    background-color: rgba(95, 116, 112, 0.5);
+}
+
+header {
+    font-family: 'highschool';
+    display: flex;
+    width: 100%;
+    position: relative;
+    margin: auto;
+}
+
+header a img {
+    width: 5em;
+    height: 5em;
+}
+
+header section {
+    justify-content: center;
+    text-align: center;
+    padding: auto;
+    width: 100%;
+}

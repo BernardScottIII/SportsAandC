@@ -1,0 +1,38 @@
+main {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    margin: 0;
+    padding: 0 10em;
+    height: auto;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a.main-content {
+    background-color: #2a6041;
+    padding: 0em;
+    margin: 2em;
+    position: relative;
+    text-align: center;
+    border-radius: 1em;
+    text-decoration: none;
+}
+
+a.main-content figure {
+    width: 20em;
+}
+
+a.main-content figure img {
+    width: 15em;
+    height: 15em;
+    background-size: cover;
+}
+
+a.main-content figcaption h2 {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    color: white;
+    text-decoration: none;
+}
